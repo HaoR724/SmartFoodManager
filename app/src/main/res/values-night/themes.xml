@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Chapter01" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/smart_primary</item>
+        <item name="colorPrimaryVariant">@color/smart_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/smart_accent</item>
+        <item name="colorSecondaryVariant">@color/smart_accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@color/smart_background</item>
+        <item name="android:navigationBarColor">@color/smart_background</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:buttonStyle">@style/Widget.App.Button</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/smart_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget.App.Button" parent="@android:style/Widget.Material.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="SmartFilterChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">@drawable/bg_filter_chip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">54dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">@color/smart_text_primary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

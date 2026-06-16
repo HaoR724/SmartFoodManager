@@ -1,0 +1,9 @@
+实验5：Android WebView 与 assets 文件读取
+
+这个文件位于 app/src/main/assets/text.txt。
+点击主界面右上角“读取指定txt”后，应用会打开 txt Activity，并读取这里的内容显示到 TextView 中。
+
+主界面功能：
+1. 左侧显示 UP 主列表。
+2. 点击列表项目后，右侧 WebView 加载对应 B 站视频。
+3. 顶部“返回浏览器”按钮会调用系统浏览器打开东北大学秦皇岛分校网站。

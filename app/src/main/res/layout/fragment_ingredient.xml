@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page_panel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="18dp"
+        android:paddingTop="18dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_title_ingredient"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="智膳管家"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_smart_input"
+            android:drawableRight="@drawable/ic_search"
+            android:drawablePadding="8dp"
+            android:elevation="8dp"
+            android:hint="搜索食材..."
+            android:singleLine="true"
+            android:textColor="@color/smart_text_primary"
+            android:textColorHint="@color/smart_text_secondary" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/layout_status_chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chip_status_all"
+                    style="@style/SmartFilterChip"
+                    android:text="全部" />
+
+                <TextView
+                    android:id="@+id/chip_status_normal"
+                    style="@style/SmartFilterChip"
+                    android:text="正常" />
+
+                <TextView
+                    android:id="@+id/chip_status_expiring"
+                    style="@style/SmartFilterChip"
+                    android:text="即将过期" />
+
+                <TextView
+                    android:id="@+id/chip_status_expired"
+                    style="@style/SmartFilterChip"
+                    android:text="已过期" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/layout_category_chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chip_category_all"
+                    style="@style/SmartFilterChip"
+                    android:text="全部" />
+
+                <TextView
+                    android:id="@+id/chip_category_leaf"
+                    style="@style/SmartFilterChip"
+                    android:text="叶菜" />
+
+                <TextView
+                    android:id="@+id/chip_category_root"
+                    style="@style/SmartFilterChip"
+                    android:text="根茎" />
+
+                <TextView
+                    android:id="@+id/chip_category_fruit"
+                    style="@style/SmartFilterChip"
+                    android:text="水果" />
+
+                <TextView
+                    android:id="@+id/chip_category_meat"
+                    style="@style/SmartFilterChip"
+                    android:text="肉禽" />
+
+                <TextView
+                    android:id="@+id/chip_category_seafood"
+                    style="@style/SmartFilterChip"
+                    android:text="水产" />
+
+                <TextView
+                    android:id="@+id/chip_category_egg"
+                    style="@style/SmartFilterChip"
+                    android:text="蛋奶" />
+
+                <TextView
+                    android:id="@+id/chip_category_staple"
+                    style="@style/SmartFilterChip"
+                    android:text="主食" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_smart_empty"
+            android:elevation="8dp"
+            android:gravity="center"
+            android:text="暂无食材，请点击右下角添加"
+            android:textColor="@color/smart_text_secondary"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="78dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_warm_chip"
+        android:elevation="16dp"
+        android:text="+"
+        android:textColor="@color/smart_text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+</FrameLayout>

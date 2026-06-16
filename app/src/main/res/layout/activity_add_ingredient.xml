@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page_panel"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="添加食材"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="食材名称"
+            android:textColor="@color/smart_text_secondary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/sp_name"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_smart_input"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sp_category"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_smart_input"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_quantity"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_smart_input"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:hint="数量"
+                android:textColorHint="@color/smart_text_secondary"
+                android:inputType="numberDecimal"
+                android:textColor="@color/smart_text_primary"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/et_unit"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_smart_input"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:hint="单位，如 克/个/瓶"
+                android:textColorHint="@color/smart_text_secondary"
+                android:textColor="@color/smart_text_primary"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="购买日期"
+            android:textColor="@color/smart_text_secondary"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/et_buy_date"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_smart_input"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:hint="购买日期 yyyy-MM-dd"
+            android:textColorHint="@color/smart_text_secondary"
+            android:textColor="@color/smart_text_primary"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_best_eat_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_smart_card"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_expire_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_smart_card"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sp_storage"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_smart_input"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:textColor="@color/smart_text_primary"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_note"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_smart_input"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:hint="备注"
+            android:textColorHint="@color/smart_text_secondary"
+            android:inputType="textMultiLine"
+            android:textColor="@color/smart_text_primary" />
+
+        <TextView
+            android:id="@+id/tv_shelf_life_rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@color/smart_text_secondary"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_smart_button"
+            android:elevation="10dp"
+            android:text="保存"
+            android:textColor="@color/smart_button_text" />
+    </LinearLayout>
+</ScrollView>

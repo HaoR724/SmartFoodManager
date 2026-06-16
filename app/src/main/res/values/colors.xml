@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="smart_primary">#FF6000</color>
+    <color name="smart_primary_dark">#14161C</color>
+    <color name="smart_accent">#FFA55B</color>
+    <color name="smart_background">#14161C</color>
+    <color name="smart_surface">#171A21</color>
+    <color name="smart_card">#1A1D24</color>
+    <color name="smart_card_stroke">#26303A</color>
+    <color name="smart_input">#303030</color>
+    <color name="smart_input_stroke">#70655B</color>
+    <color name="smart_text_primary">#FFF3D6</color>
+    <color name="smart_text_secondary">#C8B99E</color>
+    <color name="smart_button_text">#FFF3D6</color>
+    <color name="smart_nav">#101217</color>
+    <color name="smart_glow">#80FF6000</color>
+    <color name="smart_card_inner">#1F232B</color>
+    <color name="status_normal">#72D38B</color>
+    <color name="status_expiring">#FFA55B</color>
+    <color name="status_expired">#FF7A6B</color>
+</resources>

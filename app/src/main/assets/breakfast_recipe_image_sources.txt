@@ -1,0 +1,14 @@
+﻿Breakfast recipe images imported from: D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐
+recipe_breakfast_001	番茄鸡蛋面	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\番茄鸡蛋面.webp
+recipe_breakfast_002	红薯鸡蛋早餐	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\红薯鸡蛋早餐.webp
+recipe_breakfast_003	鸡蛋全麦三明治	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\鸡蛋全麦三明治.jpg
+recipe_breakfast_004	鸡蛋蔬菜卷	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\鸡蛋蔬菜卷.webp
+recipe_breakfast_005	鸡胸肉蔬菜三明治	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\鸡胸肉蔬菜三明治.jpg
+recipe_breakfast_006	牛奶燕麦粥	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\牛奶燕麦粥.jpg
+recipe_breakfast_007	苹果牛奶早餐	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\苹果牛奶早餐.jpg
+recipe_breakfast_008	全麦面包牛奶套餐	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\全麦面包牛奶套餐.webp
+recipe_breakfast_009	酸奶蓝莓杯	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\酸奶蓝莓杯.webp
+recipe_breakfast_010	香蕉酸奶燕麦杯	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\香蕉酸奶燕麦杯.jpg
+recipe_breakfast_011	小米南瓜粥	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\小米南瓜粥.webp
+recipe_breakfast_012	玉米鸡蛋饼	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\玉米鸡蛋饼.jpg
+recipe_breakfast_013	紫薯牛奶早餐	D:\Code\Android\codezip\android\Chapter01\tools\picture\食谱\早餐\紫薯牛奶早餐.webp
