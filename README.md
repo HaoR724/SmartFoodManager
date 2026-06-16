@@ -61,12 +61,14 @@ POST /api/user/login
 ### 2. 首页概览
 
 首页展示食材数量、即将过期食材数量、已过期食材数量、推荐菜谱和饮食健康概览，方便用户快速了解当前食材库存和饮食状态。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/24906fcd-0c9a-4f0c-a7eb-2c3cdb6afb1c" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/98998300-96e9-4f27-9b47-930b866e4691" />
 
 ### 3. 食材管理
 
 用户可以添加、编辑、删除和查询食材。食材信息包括食材名称、分类、数量、单位、购买日期、过期日期和存放位置等。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/0837fe8b-d602-4dd9-8986-d82df5c58ae3" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/3181ab01-4591-4638-b2d1-b45ee84f9111" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/07c23cf5-9554-49eb-83b6-d3785ef55e74" />
@@ -75,12 +77,14 @@ POST /api/user/login
 ### 4. 食材过期提醒
 
 系统根据当前日期和食材过期日期自动判断食材状态，并将食材分为正常、即将过期和已过期三类，帮助用户及时处理临期食材。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/98ad0a30-6e32-4f2b-aeb9-fc5732c8049a" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/276ecd9b-593e-4775-a0b4-fb16e8825c81" />
 
 ### 5. 菜谱推荐
 
 系统根据用户已有食材和菜谱所需食材计算匹配度，并优先推荐能够利用临期食材的菜谱。菜谱详情页面会展示已有食材、缺少食材、匹配度和推荐原因。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/0a35d710-f4fd-4619-a684-6e1a6b95588f" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/fb576e60-318e-409b-8804-3ca1145acb5b" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/92f4cf4b-3ebc-445f-a08a-5715f63e6ad8" />
@@ -89,12 +93,14 @@ POST /api/user/login
 ### 6. 购物清单
 
 用户可以将菜谱中缺少的食材加入购物清单，也可以手动管理购物项。购物清单支持标记已购买和删除购物项。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/abc3bf3d-4d86-43ec-a8bd-cb64445f0a0c" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/5e70665a-4d77-45cc-8a46-9314a0d4589c" />
 
 ### 7. 饮食健康分析
 
 用户可以记录早餐、午餐、晚餐和加餐内容。系统根据食物营养数据估算热量、蛋白质、脂肪、碳水化合物和膳食纤维摄入情况，并给出下一餐饮食建议。
+
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/b00d4425-87fe-41c0-9b08-5b944a993466" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/c08c6ea2-1bef-4595-81bf-3d84980c852f" />
 <img width="150" height="340" alt="image" src="https://github.com/user-attachments/assets/0ae2a30e-03bc-4f43-9ecf-362d1e89aa4a" />
