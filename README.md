@@ -120,7 +120,6 @@ spring:
     password: ${MYSQL_PASSWORD:your_password}
 ```
 
-说明：上传 GitHub 时不要填写真实数据库密码，建议使用环境变量或示例密码。
 
 ### Room / SQLite 本地数据库
 
